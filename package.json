@@ -1,0 +1,24 @@
+{
+  "name": "chess",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "packageManager": "npm@10.8.2",
+  "license": "MIT",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "tailwindcss": "^4.1.16",
+    "turbo": "^2.6.0"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.16"
+  }
+}

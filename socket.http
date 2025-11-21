@@ -1,0 +1,5 @@
+### Connect to WebSocket
+WEBSOCKET ws://localhost:8080
+
+### Send a message
+{"type": "init_game", "message": "Hello Server!"}
