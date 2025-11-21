@@ -11,7 +11,7 @@ packages/node_modules
 .env
 apps/*/.env
 apps/*/dist
-apps/*/.env
+apps/*/.env.local
 packages/*/.env
 # Logs
 logs
