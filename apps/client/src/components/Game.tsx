@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import ChessBoard from "./ChessBoard";
-import Button from "./Button";
 import useSocket from "../hooks/useSocket";
 import { Chess } from "chess.js";
 export const INIT_GAME = "init_game";

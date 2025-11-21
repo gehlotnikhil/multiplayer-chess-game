@@ -1,4 +1,3 @@
-import React from 'react'
 
 function Button({ onClick }: { onClick: () => void;  }) {
     return (

@@ -10,6 +10,7 @@ packages/node_modules
 
 .env
 apps/*/.env
+apps/*/dist
 apps/*/.env
 packages/*/.env
 # Logs

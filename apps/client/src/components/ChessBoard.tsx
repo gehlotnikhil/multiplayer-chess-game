@@ -1,5 +1,5 @@
-import type { Chess, Color, PieceSymbol, Square } from "chess.js";
-import React, { useEffect, useState } from "react";
+import type { Color, PieceSymbol, Square } from "chess.js";
+import  { useEffect, useState } from "react";
 import { MOVE } from "./Game";
 
 function ChessBoard({
@@ -19,7 +19,7 @@ function ChessBoard({
     console.log(board);
   }, []);
   const [from, setFrom] = useState<string | null>(null);
-  const [to, setTo] = useState<string | null>(null);
+  // const [to, setTo] = useState<string | null>(null);
    const audio = new Audio("/move.wav");
   audio.volume = 0.2;
 
