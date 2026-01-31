@@ -1,6 +1,6 @@
 import { GameManager } from './GameManager.js';
 import ws from 'ws';  // This imports the default export: WebSocket (client-side constructor)
-const wss = new ws.WebSocketServer({ port: 8080,host:"0.0.0.0" });
+const wss = new ws.WebSocketServer({ port: 8080,host:"0.0.0.0",  path: "/ws2" });
 const gameManager = new GameManager();
 wss.on('connection', function connection(ws:ws.WebSocket) { 
   gameManager.addUser(ws)
